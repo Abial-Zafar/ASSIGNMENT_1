@@ -1,0 +1,107 @@
+.profile-img {
+    width: 50%;
+    border-radius: 15px; /* Curved edges */
+    border: 5px solid #84a1ff;
+    box-shadow: 0 0 25px rgba(127, 185, 255, 0.4);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    background-image: url(background.jpg);
+}
+.navbar {
+    background-color: #084298;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #08306b;
+}
+.profile-info {
+    margin-top: 20px;
+    color: #444; /* Softer color for text */
+}
+
+.name-heading {
+    font-size: 2.5rem;
+    color: #007bff; /* Light blue for name */
+    margin-bottom: 0.5rem;
+}
+
+.id-info, .dept-info, .wsp-info, .office-info, .section-info, .university-info {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.university-info {
+    font-weight: 600; /* Slightly bold for emphasis */
+    color: #6c757d; /* Muted color for additional text */
+}
+
+.office-info {
+    font-size: 1.1rem;
+    color: #495057; /* Darker gray for office-related info */
+}
+
+.university-info {
+    font-size: 1.3rem;
+    color: #007bff; /* Color for university name */
+}
+
+.text-muted {
+    color: #6c757d !important; /* Muted text for subtle emphasis */
+}
+
+.dept-info {
+    font-size: 1.2rem;
+    color: #17a2b8; /* Teal blue for department */
+}
+
+.wsp-info {
+    font-size: 1.2rem;
+    color: #28a745; /* Green for WSP */
+}
+
+
+.quote {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #084298;
+    margin-bottom: 20px;
+}
+.main-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+footer {
+    background-color: #084298;
+    color: white;
+    font-size: 0.9rem;
+}
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Hover effect for project cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
